@@ -4,7 +4,7 @@
 
 	<groupId>3d69fd60-d8b8-427f-a119-1f83955781d7</groupId>
 	<artifactId>demo-test</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<packaging>mule-application</packaging>
 
 	<name>demo-test</name>
@@ -38,7 +38,7 @@
 			            <target>Cloudhub-US-East-2</target>
 			            <server>Repository</server>
 			            <applicationName>${project.artifactId}</applicationName>
-			            <releaseChannel>LTS</releaseChannel>
+			            <releaseChannel>NONE</releaseChannel>
 			            <replicas>1</replicas>
 			            <vCores>0.1</vCores>
 			            <deploymentSettings>
